@@ -5,8 +5,11 @@ import {
     NavbarContainer,
     NavbarLogo,
     MobileIcon,
-    NavMenu, NavItem,
-    NavLink
+    NavMenu,
+    NavItem,
+    NavLink,
+    NavButton,
+    NavButtonLink
     } from './NavbarElements';
 
 const Navbar = () => {
@@ -35,6 +38,9 @@ const Navbar = () => {
                             </NavLink>
                         </NavItem>
                     </NavMenu>
+                    <NavButton>
+                        <NavButtonLink to="/signin">sign in</NavButtonLink>
+                    </NavButton>
                 </NavbarContainer>
             </Nav>
         </>
