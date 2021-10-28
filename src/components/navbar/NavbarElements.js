@@ -58,7 +58,7 @@ export const MobileIcon = styled.div`
         cursor: pointer;
         color: #fff;
     }
-`
+`;
 
 export const NavMenu = styled.ul`
     display: flex;
@@ -90,6 +90,10 @@ export const NavLink = styled(LinkScroll)`
     &.active {
         border-bottom: 3px solid #3500D3;
     }
+    
+    &:hover {
+        color: #3500D3;
+        transition: 0.2s ease-in-out;
 `
 export const NavButton = styled.nav`
     display: flex;
