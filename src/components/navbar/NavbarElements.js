@@ -6,7 +6,7 @@ import { Link as LinkScroll} from 'react-scroll'
 // margin-top: -80px; (for the navbar)
 
 export const Nav = styled.nav`
-    background: #282828;
+    background: #171717;
     height: 70px;
     position: sticky;
     font-size: 1rem;
