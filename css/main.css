@@ -4,6 +4,8 @@ body {
     font-family: 'Source Code Pro', monospace;
     margin: 0;
     height: 100vh;
+    background-color: #242526;
+    color: #fff;
 }
 
 ul {
