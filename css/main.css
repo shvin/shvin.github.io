@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a { 
+    text-decoration: none;
+}
