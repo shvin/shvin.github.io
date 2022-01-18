@@ -65,6 +65,10 @@ header .logo {
   color: #a261ff;
 }
 
+header .logo:hover {
+  color: white;
+}
+
 header ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,6 +78,18 @@ header ul {
 header ul a {
   display: block;
   padding: 0 1em;
+}
+
+header ul a:hover {
+  color: #a261ff;
+  background: transparent;
+  text-decoration: none;
+}
+
+header ul a:active {
+  color: #37c0ff;
+  background: transparent;
+  text-decoration: none;
 }
 
 .social-header, object {
@@ -109,11 +125,33 @@ section {
   margin-bottom: 1em;
 }
 
-.iconlist-container ul li .iconlist-text {
+.iconlist-container ul li .iconlist-row {
   height: 100px;
   display: -ms-grid;
   display: grid;
   place-content: center;
   margin: 0 auto;
+}
+
+.iconlist-container ul li img {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+.iconlist-container ul li .iconlist-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (min-width: 800px) {
+  .about {
+    text-align: center;
+  }
+  .iconlist-container {
+    display: -ms-grid;
+    display: grid;
+  }
 }
 /*# sourceMappingURL=main.css.map */

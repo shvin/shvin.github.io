@@ -60,12 +60,29 @@ header {
         font-size: 1.5em;
         color: #a261ff;
     }
+
+    .logo:hover {
+        color: white;
+    }
+
     ul {
         display: flex;
 
         a {
             display: block;
             padding: 0 1em;
+        }
+
+        a:hover {
+            color: #a261ff;
+            background: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: #37c0ff;
+            background: transparent;
+            text-decoration: none;
         }
     }
 }
@@ -98,12 +115,35 @@ section {
     padding: 2em;
     border-radius: 1em;
     margin-bottom: 1em;
-    
 
-    .iconlist-text{
+
+    .iconlist-row {
         height: 100px;
         display: grid;
         place-content: center;
         margin: 0 auto;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+    }
+
+    .iconlist-row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .about {
+        text-align: center;
+    }
+
+    .iconlist-container{
+        display: grid;
+        
     }
 }
