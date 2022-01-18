@@ -120,6 +120,12 @@ section {
 }
 
 /* about */
+.about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .about-text {
   color: #a261ff;
   font-weight: bold;
@@ -136,6 +142,28 @@ section {
 }
 
 /* iconlist */
+.iconlist-container {
+  display: table;
+  border-spacing: 1rem;
+  width: 100%;
+}
+
+.iconlist-container .icon {
+  width: 20%;
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 0.625rem;
+}
+
+.iconlist-container .icon img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* projects */
 .projects {
   background-color: #313233;
@@ -263,8 +291,17 @@ section {
     text-align: center;
   }
   .iconlist-container {
-    display: -ms-grid;
-    display: grid;
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iconlist-container, .icon {
+    display: block;
+  }
+  .icon {
+    width: 100%;
+    margin: 1rem 0;
   }
 }
 
