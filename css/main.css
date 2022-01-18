@@ -180,6 +180,21 @@ section {
   margin-bottom: 2em;
 }
 
+/* portfolio */
+.portfolio-site-main {
+  text-align: center;
+}
+
+/* webscraper */
+.webscraper-site-main {
+  text-align: center;
+}
+
+/* vinbot */
+.vinbot-site-main {
+  text-align: center;
+}
+
 /* footer */
 .footer-container {
   background-color: #242526;
