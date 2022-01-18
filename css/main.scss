@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    height: 100vh;
+    background-color: #242526;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:link {
+    color: #a261ff;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a261ff;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #50dd74;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: #37c0ff;
+    background: transparent;
+    text-decoration: none;
+}
+
+.nav-container {
+    background: #242526;
+
+    a {
+        color: white;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+    .logo {
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #a261ff;
+    }
+    ul {
+        display: flex;
+
+        a {
+            display: block;
+            padding: 0 1em;
+        }
+    }
+}
+
+.social-header, object {
+    display: none;
+}
+
+.hero {
+    color: white;
+    display: grid;
+}
+
+.hero-text {
+    color: #50dd74;
+}
+
+.hero-subtext {
+    display: flex;
+    font-weight: bold;
+    color: #a261ff;
+}
