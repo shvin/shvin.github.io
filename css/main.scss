@@ -88,3 +88,22 @@ header {
     font-weight: bold;
     color: #a261ff;
 }
+
+section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.iconlist-container ul li{ 
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    
+
+    .iconlist-text{
+        height: 100px;
+        display: grid;
+        place-content: center;
+        margin: 0 auto;
+    }
+}
