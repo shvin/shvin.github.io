@@ -248,17 +248,104 @@ section {
     }
 }
 
+.hero {
+    display: grid;
+    background: unset;
+    padding: 0;
+    position: relative;
 
+    .hero-text {
+        background: #242526;
+        text-align: left;
+        margin-left: 10em;
+        padding: 6em 8em 6em 4em;
+
+        h1 {
+            font-size: 3em;
+            line-height: 1.2em;
+        }
+    }
+}
+
+.hero-subtext {
+    margin: unset;
+}
+
+.hero-text object {
+    position: absolute;
+    top: 10px;
+    left: 800px;
+    display: unset;
+    width: 45%;
+    height: 45%;
+}
 
 @media only screen and (min-width: 800px) {
     .about {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
     }
 
     .iconlist-container{
         margin: 0 1rem;
     }
+
+    .projects-container ul {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 1em;
+    }
+
+    .hero {
+        height: 90vh;
+    }
+
+    .nav-container {
+        display: grid;
+        grid-template-columns: 55% auto;
+        background: unset;
+
+        header {
+            background: #242526;
+        }
+    }
+
+    header {
+        padding: 2em 2em 2em 4em;
+    }
+
+    .social-header {
+        padding: 2em 4em 2em 0;
+    }
+
+    section {
+        padding: 4em;
+    }
+
+    .social-header {
+        display: block;
+        
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 7em;
+            float: right;
+
+            img {
+                width: 30px;
+            }
+
+            img:hover {
+                color: #37c0ff;
+                background: transparent;
+                text-decoration: none;
+            }
+        }
+    }
 }
+
 
 @media screen and (max-width: 768px) {
     .iconlist-container, .icon {
