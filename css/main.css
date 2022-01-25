@@ -199,6 +199,33 @@ section {
   height: 55px;
 }
 
+.projects .projects-container ul li .btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #a261ff;
+  border-radius: 4px;
+  -webkit-box-sizing: inset 0 0 0 0 #37c0ff;
+          box-sizing: inset 0 0 0 0 #37c0ff;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.projects .projects-container ul li .btn a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.projects .projects-container ul li .btn:hover {
+  -webkit-box-shadow: inset 100px 0 0 0 #37c0ff;
+          box-shadow: inset 100px 0 0 0 #37c0ff;
+  cursor: pointer;
+  color: #000;
+}
+
 .projects .projects-container ul li .project-title {
   font-weight: bold;
   color: #a261ff;

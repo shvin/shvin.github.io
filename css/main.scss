@@ -4,7 +4,7 @@ body {
     font-family: 'Source Code Pro', monospace;
     background-color: #242526;
     color: #fff;
-    
+
 }
 
 ul {
@@ -179,6 +179,30 @@ section {
                 width: 60px;
                 height: 55px;
             }
+        }
+
+        .btn {
+            width: 100px;
+            height: 30px;
+            border: none;
+            background-color: #a261ff;
+            border-radius: 4px;
+            box-sizing: inset 0 0 0 0 #37c0ff;
+            transition: ease-out 0.3s;
+            font-size: 0.85rem;
+            outline: none;
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-family: 'Source Code Pro', monospace;
+            }
+        }
+
+        .btn:hover {
+            box-shadow: inset 100px 0 0 0 #37c0ff;
+            cursor: pointer;
+            color: #000;
         }
 
         .project-title {
